@@ -33,17 +33,7 @@ Follow these steps to run the project locally:
 ### 1. Clone the Repository
 git clone https://github.com/lawkeshdhurve/shl.git  
 
-### 2. Create and Activate Virtual Environment
-
-#### On Windows:
-python -m venv venv  
-venv\Scripts\activate
-
-#### On macOS/Linux:
-python3 -m venv venv  
-source venv/bin/activate
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 Make sure you have a `requirements.txt` file in the root directory, then run:  
 pip install -r requirements.txt
@@ -51,10 +41,10 @@ pip install -r requirements.txt
 Alternatively, manually install dependencies:  
 pip install streamlit sentence-transformers pandas scikit-learn beautifulsoup4 requests
 
-### 4. Run the App
+### 3. Run the App
 streamlit run shl_recommender.py
 
-### 5. Open in Browser
+### 4. Open in Browser
 
 Visit: http://localhost:8501
 
